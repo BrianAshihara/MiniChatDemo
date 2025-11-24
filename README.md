@@ -21,7 +21,6 @@ O objetivo é servir como um projeto de portfólio sólido, demonstrando conheci
 * 🔒 **Zero internet** — total privacidade
 * 🧠 **IA open-source** usando Llama 2
 * 💬 **Histórico de conversas** com contexto
-* 🚫 **Sem logs poluídos** (versão CLEAN incluída)
 * 🆓 **100% gratuito**
 
 ---
@@ -32,58 +31,6 @@ O objetivo é servir como um projeto de portfólio sólido, demonstrando conheci
 * `llama-cpp-python`
 * **Modelos LLM** no formato **GGUF**
 * VSCode / PowerShell
-
----
-
-##Que ótimo! As informações estão muito completas e bem estruturadas. Eu transformei tudo em um README.md formatado com Markdown, pronto para ser copiado.
-
-Aqui está o código:
-
-Markdown
-
-# 🚀 Chatbot Local com IA — 100% Offline, Privado e Gratuito
-
-Este projeto implementa um **chatbot de Inteligência Artificial totalmente local**, rodando em sua máquina sem usar APIs pagas, sem enviar dados para a internet e sem depender de serviços externos.
-
-Ele utiliza o modelo **Llama 2 7B Chat** no formato **GGUF**, carregado pelo backend otimizado `llama-cpp-python`, garantindo desempenho mesmo em CPUs comuns.
-
-O objetivo é servir como um projeto de portfólio sólido, demonstrando conhecimento prático em:
-
-* **Modelos LLM (Large Language Models)**
-* **Execução local de IA**
-* **Python**
-* **Construção de prompts**
-* **Manuseio de contexto / histórico de conversas**
-* **Arquitetura simples, clara e eficiente**
-
----
-
-## 📌 Funcionalidades
-
-* 🤖 **Chatbot inteligente** que roda na sua máquina
-* 🔒 **Zero internet** — total privacidade
-* 🧠 **IA open-source** usando Llama 2
-* 💬 **Histórico de conversas** com contexto
-* 🚫 **Sem logs poluídos** (versão CLEAN incluída)
-* 🆓 **100% gratuito**
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-* **Python 3.11**
-* `llama-cpp-python`
-* **Modelos LLM** no formato **GGUF**
-* VSCode / PowerShell
-* Ambiente virtual (`venv`)
-
----
-
-## 📂 Estrutura do Projeto
-
-📂 chatbot-local/ │── 📁 model/ │ └── llama-2-7b-chat.Q4_K_M.gguf │── 📁 core/ │ └── chatbot.py │── main.py │── requirements.txt │── README.md │── venv/ (gerado automaticamente)
-
-
 ---
 
 ## 🧠 Como o chatbot funciona
@@ -113,6 +60,28 @@ Importante: Não há regras programadas. A inteligência emerge do treinamento m
 - Construir um chatbot totalmente funcional
 
 - Garantir privacidade (nenhum dado sai da sua máquina)
+
+## 📦 Instalação
+
+### 1. Clone o repositório
+
+- git clone [https://github.com/brianashihara/MiniChatDemo.git](https://github.com/brianashihara/MiniChatDemo.git)
+2. Crie e ative o ambiente virtual
+- py -3.11 -m venv venv
+- venv\Scripts\activate
+3. Instale as dependências
+
+- pip install -r requirements.txt
+4. Baixe o modelo de IA
+- Acesse a página do modelo:
+
+- 👉 https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF
+
+- Baixe o arquivo recomendado:
+
+- llama-2-7b-chat.Q4_K_M.gguf
+
+- Coloque este arquivo dentro da pasta "model/" e renomeie o arquivo para model.gguf
 
 
 ## 📄 Licença
